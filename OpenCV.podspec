@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "OpenCV3.0"
+  s.name         = "OpenCV"
   s.version      = "3.0.0"
   s.summary      = "OpenCV (Computer Vision) for iOS."
   s.homepage     = "https://github.com/chliam/OpenCV_IOS_3.0RC1"
@@ -65,5 +65,5 @@ Pod::Spec.new do |s|
   
   s.libraries    = 'c++', 'stdc++'  
   s.frameworks = 'opencv2', 'Accelerate', 'AssetsLibrary', 'AVFoundation', 'CoreGraphics', 'CoreImage', 'CoreMedia', 'CoreVideo', 'Foundation', 'QuartzCore', 'UIKit'
-  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV3.0', 'OTHER_LDFLAGS' => '-all_load'}
+  s.xcconfig = {'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OpenCV', 'OTHER_LDFLAGS' => '-all_load'}
 end
